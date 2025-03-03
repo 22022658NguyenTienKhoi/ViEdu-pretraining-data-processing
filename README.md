@@ -28,4 +28,5 @@ We apply continual pretraining to [meta-llama/Llama-3.1-8B](https://huggingface.
 - Model type: RoBERTa with classification layers
 - Params: 136 M
 - Size: 544 MB
-
+# Deduplication
+Locality Sensitive Hashing: Minhash
