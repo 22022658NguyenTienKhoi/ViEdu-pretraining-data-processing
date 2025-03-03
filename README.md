@@ -14,6 +14,8 @@ Data sources come from the following categories:
   [link to C4_vi](https://huggingface.co/datasets/allenai/c4)
 # Tokenizer  
 We use tokenizer from [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)  
+# Training models  
+We apply continual pretraining to [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) on our processed dataset. The training process last 10 days on 2 Nvidia A100 GPUs and we achieve the average training loss of 1.9
 # Filtering models  
 1. [Quality classification model](https://huggingface.co/zerostratos/quality_classification):  
 - Model type: deberta-v2
