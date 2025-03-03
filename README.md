@@ -15,7 +15,15 @@ Data sources come from the following categories:
 # Tokenizer  
 We use tokenizer from [meta-llama/Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B)  
 # Filtering models  
-[quality classification model](https://huggingface.co/zerostratos/quality_classification)  
-[domain classification model](https://huggingface.co/nvidia/multilingual-domain-classifier)  
-[toxic detection model](https://huggingface.co/zerostratos/lstm)  
+1. [Quality classification model](https://huggingface.co/zerostratos/quality_classification):  
+- Model type: deberta-v2
+- Params: 278 M
+- Size: 1.11 GB
+2. [Domain classification model](https://huggingface.co/nvidia/multilingual-domain-classifier) :
+- Model type: fasttext
+- Size: 2.02 GB
+3. [Toxic detection model](https://huggingface.co/zerostratos/lstm)
+- Model type: RoBERTa with classification layers
+- Params: 136 M
+- Size: 544 MB
 
